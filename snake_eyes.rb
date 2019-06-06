@@ -3,7 +3,7 @@ def snake_eye()
   count = 0
   i = 0
   random = Random.new
-  while i <  101
+  while i <  100
     dice1 = random.rand(1..6)
     dice2 = random.rand(1..6)
     if dice1 == 1 && dice2 == 1
